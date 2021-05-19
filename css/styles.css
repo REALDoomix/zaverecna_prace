@@ -5,7 +5,7 @@ h1 {
 .title {
     position: absolute;
     text-align: center;
-    top: 20%;
+    top: 1%;
     width: 100%;
     line-height: 1.2em;
     z-index: 2;
@@ -51,7 +51,6 @@ h1{
     text-align: center;
     color: white;
     text-shadow: black 4px 4px;
-    
     font-family: 'Abril Fatface', cursive !important;
 
 }
@@ -65,7 +64,7 @@ h1{
     justify-content: space-evenly;
     position: absolute;
     text-align: center;
-    top: 57%;
+    top: 40%;
     width: 100%;
     z-index: 2;
 }
@@ -79,6 +78,7 @@ a {
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
+    z-index: 2;
   }
   
   a:hover {
@@ -105,6 +105,7 @@ a {
       left: 0;
       right: 0;
       text-shadow: black 0.1em 0.1em 0.2em;
+      z-index: 1;
   }
 
   .bouncy{
