@@ -1,3 +1,12 @@
+video {
+    max-width: 100%;
+    height: auto;
+  }
+
+.barvicka {
+    color: rgb(72,118,141);
+}
+
 table td {
     border: 1px solid rgb(247, 36, 21);
     padding: 4px 8px;
@@ -5,7 +14,7 @@ table td {
 }
 
 body{
-    background-image: linear-gradient(rgb(82, 73, 73), black);
+    background-image: linear-gradient(rgb(52,58,64) , rgb(87, 85, 85));
 }
 
 .poppic {
