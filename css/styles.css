@@ -1,5 +1,11 @@
+table td {
+    border: 1px solid rgb(247, 36, 21);
+    padding: 4px 8px;
+    background-color: grey;
+}
+
 body{
-    background-image: linear-gradient(grey, white);
+    background-image: linear-gradient(rgb(82, 73, 73), black);
 }
 
 .poppic {
@@ -54,9 +60,7 @@ padding-right: auto;
     position:absolute;
 }
 
-.bckgrnd {
-    background-image: url(../images/bckg.jpg);
-}
+
 
 h1{
     text-align: center;
