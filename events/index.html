@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/events.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -49,16 +49,63 @@
       <hr>
     </header>  
 
-<main>
-  <div style="container"></div>
+<main style="container">
+  <table class="container text-center text-warning">
+    <tr>
+      <th>Game</th>
+      <th>Name of the event</th>
+      <th>Status</th>
+      <th>Date</th>
+    </tr>
+    <tr>
+      <td>CS:GO</td>
+      <td>IEM Katowice</td>
+      <td>Completed</td>
+      <td>Feb 24th - Mar 1st</td>
+    </tr>
+    <tr>
+      <td>Valorant</td>
+      <td>VCT Masters 2</td>
+      <td>Completed</td>
+      <td>May 24th - 30th</td>
+    </tr>
+    <tr>
+<td>CS:GO</td>
+<td>PGL Major Stockholm</td>
+<td>Upcoming</td> 
+<td>October 23rd–November 7th</td>
+</tr>
+<tr>
+  <td>CS:GO</td>
+  <td>IEM Cologne</td>
+  <td>Upcoming</td> 
+  <td>Jul 8th - 18th</td>
+  </tr>
+  <tr>
+    <td>CS:GO</td>
+    <td>ESL Pro League</td>
+    <td>Upcoming</td> 
+    <td>Aug 16th - Sep 12th</td>
+    </tr>
+    <tr>
+      <td>CS:GO</td>
+      <td>IEM Winter</td>
+      <td>Upcoming</td> 
+      <td>Dec 2nd - Dec 12th</td>
+      </tr>
+</table>
+
+
+<br>
+
   <div class="mt-5 mb-5">
     <div class=" boxshadow m-auto maxw70 jumbotron bg-dark text-center borderradius1 text-white">
-        <h1>DOTAZNÍK</h1>
-        <hr style="background-color: whitesmoke !important;">
+        <h1>QUESTIONNAIRE</h1>
+        <hr>
         <form>
 
          
-        <div style="max-width: 50%; margin: auto;"><p class="alert alert-light colorblack">Do you consider esports as sports?</p></div>
+        <div style="qstnre"><p class="alert alert-light colorblack">Do you consider esports as sports?</p></div>
         <div class="form-group row text-center justify-content-center">
             <div class="col-md-9">
               <div class="form-check form-check-inline">
@@ -75,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div style="max-width: 50%; margin: auto;"><p class="alert alert-light colorblack o otazka">Who is your favorite Esports competitor</p></div>
+        <div style="qstnre"><p class="alert alert-light colorblack o otazka">Who is your favorite Esports competitor</p></div>
             <div class="form-group row">
                 <div class="col-md-6 m-auto"><label style="max-width: 50%; margin: auto;" class="col-form-label">Type your answer here:</label>
                     <textarea class="form-control" placeholder="Erik Corporated" name="doplnek" id="doplnek" rows="5"></textarea></div>
@@ -83,6 +130,7 @@
         </form>
         <form action="../index.html"><button class="buttonDotaznik boxshadow">Sumbit</button></form>
       </div>
+
 </main>
 
 <footer class="bg-dark fixed-bottom text-center text-white mt-4 container-fluid">
