@@ -70,6 +70,11 @@ h1{
     width: 100%;
     z-index: 2;
 }
+
+.tlacitko {
+    padding: 5em !important;
+}
+
 .main {
     position:relative;
 }
